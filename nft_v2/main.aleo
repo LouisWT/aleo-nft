@@ -14,7 +14,7 @@ record nft:
     data2 as u128.private; // Part 2 of the Arweave Transaction ID, a SHA-256 signature
 
 // An interface representing the SHA-256 signature from the Arweave transaction id
-interface nft_data:
+struct nft_data:
     value1 as u128; // Part 1 of the Arweave Transaction ID, a SHA-256 signature
     value2 as u128; // Part 2 of the Arweave Transaction ID, a SHA-256 signature
 
